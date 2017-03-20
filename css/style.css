@@ -1,0 +1,10 @@
+ *{padding:0;margin:0;}
+.banner{width:100%;margin: 0 auto;height: 320px; position: relative; overflow:hidden; text-align: center;}
+.banner ul{position:relative; height: 320px; }
+.banner ul li{float:left;text-align: center; height: 320px; position: relative;}
+.dot{position: absolute;bottom:20px; text-align: center;left: 0;height: 10px;width:100%; z-index: 10000;}
+.dot span{display:inline-block;width:8px;height:8px;border-radius: 5px;border:1px solid #ccc; margin:0 10px 0 0;}
+.dot span.on{background: #ccc;}
+.preNext{ width:45px; height:100px; background:url(../images/sprite.png) no-repeat; position:absolute; top:110px;; cursor:pointer;}
+.pre{left:0; background-position:0 0;}
+.next{ right:0; background-position:-56px 0;}
